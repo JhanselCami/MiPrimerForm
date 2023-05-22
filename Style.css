@@ -1,0 +1,106 @@
+*{margin: 0;   
+  padding: 0;
+  box-sizing: border-box;  
+ }
+
+ .fondo{ background-color: #053164;}
+
+
+    .containerr {
+      display: flex;
+      width: 800px;  
+      background: #f3f3f3; 
+      margin: auto;
+      margin-top: 200px;  
+      padding: 50px;
+      padding-top:50px ; 
+      border-radius: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      box-shadow: 0 0 20 rgb(0, 0, 0);
+      align-items: center;
+
+    }
+    .formulario {
+      display: flex;
+      flex-direction: column;
+  
+      }
+      
+    .tituloprin{
+      margin-bottom: 0px;
+      font-size: 35px;
+      font-weight: 700;
+    }
+
+
+    .itext{
+      
+      width: 70%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #053164;
+    }
+    .isub{      
+      width: 50%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    
+
+  
+    }
+
+    .labeless{
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+      margin-right: 2px; ;
+      
+    }
+    .labelesss{
+      display: flex;
+      flex-direction: row;
+
+      
+    }
+
+    .div2{
+      display: flex;
+    }
+    .boton{
+      height: 40px;
+      max-width: 200px;
+      margin-top: 30px;
+      padding-left:30px;
+      padding-right: 30px;
+      text-align: center;
+      font-size: 15px;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      background-color: #053164;
+      border: 0ch;
+      border-radius: 4px;
+    }
+
+    .boton a:hover{
+      height: 40px;
+      padding-left:30px;
+      padding-right: 30px;
+      text-align: center;
+      font-size: 15px;
+      color: #053164;      font-weight: 600;
+      text-decoration: none;
+      background-color: white;
+      border: 1px  solid #053164 ; 
+      border-radius: 4px;
+    }
+
+
+    .labeles{
+      font-weight: 600;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 15px;
+    }
